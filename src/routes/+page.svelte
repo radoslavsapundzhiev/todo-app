@@ -5,24 +5,21 @@
   import AddTodoForm from "../components/AddTodoForm.svelte";
   import TodoList from "../components/TodoList.svelte";
   import Notification from "../components/Notification.svelte";
+
+  export let data;
 </script>
 
-<Menu/>
+<Menu />
 
 <div class="column is-10 has-text-dark">
-
   <div class="container">
-    <Notification/>
+    <Notification />
     {#if $showAddForm}
-    <AddTodoForm />
+      <AddTodoForm />
     {/if}
 
     <Filter />
 
-    <TodoList/>
+    <TodoList todos={data.todos} />
   </div>
-
 </div>
-
-
-

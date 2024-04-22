@@ -17,6 +17,12 @@
       "name": "third todo",
       "color": "#e99c2f",
       "isDone": false
+    },
+    {
+      "id": "3eaf",
+      "name": "forth todo",
+      "color": "#73d216",
+      "isDone": true
     }
   ]
 }
