@@ -1,9 +1,10 @@
 <script>
   import Hero from "../components/Hero.svelte";
   import Footer from "../components/Footer.svelte";
+  import "../styles/global.css";
 </script>
 
-<Hero/>
+<Hero />
 
 <div class="columns is-flex-direction-column is-fullheight-100vh">
   <main class="column">
@@ -12,7 +13,7 @@
     </div>
   </main>
 
-  <Footer/>
+  <Footer />
 </div>
 
 <style>
